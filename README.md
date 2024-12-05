@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ### Benchmarks
 The benchmarking script compares memory usage and access speed of .h5ad files in two modes:
 
-####🚀 Unbacked Mode:
+#### 🚀 Unbacked Mode:
 - Faster read times.
 - Higher memory usage during runtime.
 ####  🧠 Backed Mode:
