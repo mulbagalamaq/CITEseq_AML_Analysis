@@ -1,0 +1,39 @@
+ 
+
+### Avoid H5ad files
+
+# Ignore all .h5ad files
+*.h5ad
+
+# Ignore specific directories where large files might reside
+data/
+results/
+
+# Ignore Python-specific files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment
+.env/
+venv/
+*.env
+
+# Ignore cache files
+*.cache
+*.pickle
+*.pkl
+
