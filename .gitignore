@@ -5,6 +5,8 @@
 # Ignore all .h5ad files
 *.h5ad
 
+*.h5
+
 # Ignore specific directories where large files might reside
 data/
 results/
